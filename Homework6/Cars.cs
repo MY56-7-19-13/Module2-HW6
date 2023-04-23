@@ -57,7 +57,7 @@ namespace Homework6
 
         public int CompareTo(Cars? other)
         {
-            return FuelConsumption.CompareTo(other.FuelConsumption);
+            return FuelConsumption.CompareTo(FuelConsumption);
         }
     }
 }
